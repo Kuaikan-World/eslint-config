@@ -1,0 +1,16 @@
+{
+  "name": "@kuaikan/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuaikan-World/eslint-config.git"
+  },
+  "dependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
