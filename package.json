@@ -20,7 +20,7 @@
 		"name": "fanhaoyuan",
 		"email": "fanhaoyuan@kkworld.com"
 	},
-	"license": "GPL",
+	"license": "GPL-3.0",
 	"dependencies": {
 		"eslint": "^8.31.0",
 		"eslint-config-prettier": "^8.6.0"

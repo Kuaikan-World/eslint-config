@@ -42,4 +42,4 @@
 
 ## 许可证
 
-[GPL v3.0](./LICENSE)
+[GPL-3.0](./LICENSE)
