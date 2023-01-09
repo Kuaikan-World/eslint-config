@@ -39,3 +39,7 @@
 	"extends": ["@kuaikan/eslint-config"]
 }
 ```
+
+## 许可证
+
+[GPL v3.0](./LICENSE)
