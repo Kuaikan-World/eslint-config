@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - "v*"
+      - 'v*'
 
 jobs:
   release:
@@ -13,6 +13,7 @@ jobs:
         uses: Roang-zero1/github-create-release-action@master
         with:
           version_regex: ^v[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+
+          release_title: ${{ github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
@@ -28,7 +29,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 18
-          cache: "pnpm"
+          cache: 'pnpm'
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
