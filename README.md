@@ -36,7 +36,7 @@
 
 ```json
 {
-	"extends": ["@kuaikan/eslint-config"]
+  "extends": ["@kuaikan/eslint-config"]
 }
 ```
 

@@ -1,31 +1,32 @@
 {
-	"name": "@kuaikan/eslint-config",
-	"version": "1.0.0",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Kuaikan-World/eslint-config.git"
-	},
-	"bugs": {
-		"url": "https://github.com/Kuaikan-World/eslint-config/issues"
-	},
-	"homepage": "https://github.com/Kuaikan-World/eslint-config",
-	"description": "快看前端团队 ESLint 统一配置项",
-	"keywords": [
-		"eslint",
-		"eslint-config",
-		"eslint-config-shared"
-	],
-	"author": {
-		"name": "fanhaoyuan",
-		"email": "fanhaoyuan@kkworld.com"
-	},
-	"license": "GPL-3.0",
-	"dependencies": {
-		"eslint": "^8.31.0",
-		"eslint-config-prettier": "^8.6.0"
-	},
-	"devDependencies": {
-		"@types/node": "^18.11.18"
-	}
+  "name": "@kuaikan/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuaikan-World/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kuaikan-World/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Kuaikan-World/eslint-config",
+  "description": "快看前端团队 ESLint 统一配置项",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-shared"
+  ],
+  "author": {
+    "name": "fanhaoyuan",
+    "email": "fanhaoyuan@kkworld.com"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "devDependencies": {
+    "@kuaikan/prettier-config": "^1.0.0",
+    "@types/node": "^18.11.18"
+  }
 }
