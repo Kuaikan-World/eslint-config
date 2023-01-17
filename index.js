@@ -12,7 +12,7 @@ module.exports = {
   overrides: [
     {
       files: ['./**/*.ts'],
-      extends: ['./typescript.js', 'eslint-config-prettier']
+      extends: ['./typescript.js', 'plugin:prettier/recommended']
     }
   ]
 };
