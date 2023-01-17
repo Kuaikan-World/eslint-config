@@ -23,7 +23,8 @@
   "license": "GPL-3.0",
   "dependencies": {
     "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0"
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "devDependencies": {
     "@kuaikan/prettier-config": "^1.0.0",

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./javascript.js', 'eslint-config-prettier'],
+  extends: ['./javascript.js', 'plugin:prettier/recommended'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 11
