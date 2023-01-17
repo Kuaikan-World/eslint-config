@@ -21,6 +21,9 @@
     "email": "fanhaoyuan@kkworld.com"
   },
   "license": "GPL-3.0",
+  "scripts": {
+    "release": "pnpm publish --access public --no-git-check"
+  },
   "dependencies": {
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
