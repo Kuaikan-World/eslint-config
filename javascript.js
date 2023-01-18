@@ -1,6 +1,9 @@
 module.exports = {
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:sonarjs/recommended'],
+  plugins: ['sonarjs'],
+  parser: '@typescript-eslint/parser',
   rules: {
+    'sonarjs/cognitive-complexity': ['error', 30],
     'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
     'no-debugger': 'warn',
     // allow async-await
