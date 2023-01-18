@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', './sonar.js'],
+  parser: '@typescript-eslint/parser',
   rules: {
     'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
     'no-debugger': 'warn',

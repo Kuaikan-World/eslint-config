@@ -24,7 +24,7 @@
 
 ## 使用方式
 
-### JavaScript 项目
+### JavaScript / TypeScript 项目
 
 在根目录中新增 `.eslintrc` 文件
 
