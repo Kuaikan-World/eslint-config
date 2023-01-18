@@ -8,5 +8,11 @@ module.exports = {
     node: true,
     es2021: true,
     browser: true
-  }
+  },
+  overrides: [
+    {
+      files: ['./**/*.json'],
+      extends: ['./json.js']
+    }
+  ]
 };
